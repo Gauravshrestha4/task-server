@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "outDir": "./dist",
+    "baseUrl": "./lib",
+    "noEmit": false,
+    "allowJs": false,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUnusedLocals": false,
+    "sourceMap": true,
+    "lib": ["ES2021"],
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "target": "ES6",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["*.ts", "models/**/*"],
+  "exclude": ["node_modules"]
+}
